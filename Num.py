@@ -1,4 +1,4 @@
-# put your python code here
+
 import random
 
 num_r = random.randint(1, 101)
