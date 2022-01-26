@@ -1,11 +1,11 @@
-import random                    # подключаем модуль
+import random                    
 
-number = random.randint(1, 101)  # генерируем случайное число от 1 до 100
+number = random.randint(1, 101)  
 
 print('Добро пожаловать в числовую угадайку')
 
 def is_valid(num):
-    if num.isdigit():
+    if num.isdigit(): 
         num = int(num)
         if 1 <= num <= 100:
             return True
